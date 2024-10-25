@@ -1,7 +1,3 @@
-Here's a `README.md` template for your weather app project. This template includes an overview, installation steps, usage instructions, and more, making it ideal for GitHub.
-
----
-
 # Weatheria
 
 Weatheria is a simple, user-friendly weather application built with React, allowing users to check real-time weather information for cities worldwide. Users can toggle between Celsius and Fahrenheit, switch between light and dark modes, and enjoy a clean, responsive UI.
@@ -62,7 +58,7 @@ Weatheria is a simple, user-friendly weather application built with React, allow
 
 - **Enter City**: Type the name of a city in the search box and click "Check Weather" to fetch the latest data.
 - **Temperature Unit Toggle**: Click the Celsius/Fahrenheit button to switch units.
-- **Dark Mode Toggle**: Click the sun/moon icon at the top-right corner to switch between light and dark modes.
+- **Dark Mode Toggle**: Click the sun icon at the top-right corner to switch between light and dark modes.
 
 ## Folder Structure
 
@@ -77,7 +73,7 @@ weatheria/
 └── README.md
 ```
 
-## Code Snippet
+## Snippet
 
 Here's a quick look at the `fetchWeather` function used in the app to retrieve weather data:
 
@@ -89,10 +85,6 @@ const fetchWeather = async (unitParam = unit) => {
   setWeatherData(data);
 };
 ```
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ## Contributing
 
