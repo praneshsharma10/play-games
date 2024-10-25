@@ -60,19 +60,6 @@ Weatheria is a simple, user-friendly weather application built with React, allow
 - **Temperature Unit Toggle**: Click the Celsius/Fahrenheit button to switch units.
 - **Dark Mode Toggle**: Click the sun icon at the top-right corner to switch between light and dark modes.
 
-## Folder Structure
-
-```
-weatheria/
-├── public/
-├── src/
-│   ├── App.jsx
-│   ├── components/
-│   └── styles/
-├── .env
-└── README.md
-```
-
 ## Snippet
 
 Here's a quick look at the `fetchWeather` function used in the app to retrieve weather data:
